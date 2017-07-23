@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #000;
+  overflow: hidden;
+}
+
+.tile {
+  border: 1px solid white;
+  position: absolute;
+  background: #888888;
+  padding: 20px;
+}
