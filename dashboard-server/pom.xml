@@ -28,6 +28,16 @@
             <artifactId>pebble</artifactId>
         </dependency>
 
+        <!--JSON-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+        </dependency>
+
         <!--LOGGING-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
