@@ -9,8 +9,8 @@ body {
 }
 
 .tile {
-  border: 1px solid white;
+  border: 1px solid #606060;
   position: absolute;
   background: #888888;
-  padding: 20px;
+  padding: 0;
 }
