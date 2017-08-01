@@ -1,0 +1,24 @@
+{
+  "import": [
+
+  ],
+  "boards": [
+    {
+      "title": "dashboard",
+      "tiles": [
+        {
+          "id": "tile",
+          "x": 1,
+          "y": 1,
+          "w": 2,
+          "h": 1,
+          "endpoint": "https://eth.nanopool.org/api/v1/user/0xeb37275511d9a429d9690e5671f53072fd45670d",
+          "token": null,
+          "refresh": "10m30s",
+          "history": null,
+          "target": "$.data.balance"
+        }
+      ]
+    }
+  ]
+}
