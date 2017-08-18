@@ -12,11 +12,6 @@
     <artifactId>dashboard-server</artifactId>
 
     <dependencies>
-        <!--DASHBOARD-->
-        <dependency>
-            <groupId>fr.chsfleury.dashboard</groupId>
-            <artifactId>dashboard-api</artifactId>
-        </dependency>
 
         <!--HTTP-->
         <dependency>
@@ -26,6 +21,10 @@
         <dependency>
             <groupId>com.mitchellbosecke</groupId>
             <artifactId>pebble</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mashape.unirest</groupId>
+            <artifactId>unirest-java</artifactId>
         </dependency>
 
         <!--JSON-->
